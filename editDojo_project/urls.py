@@ -20,7 +20,7 @@ from todo.views import todoView, addTodo, deleteTodo
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('sayHello/', myView),
+    path('Hello/', myView),
     path('todo/', todoView),
     path('addTodo/', addTodo),
     path('deleteTodo/<int:todo_id>/', deleteTodo),
